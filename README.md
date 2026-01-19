@@ -85,7 +85,7 @@ pip install opencv-python numpy trimesh pygame PyOpenGL openai mediapipe
 
 5. **Configure OpenAI API Key**
    - Open `HELOSFORGE.py`
-   - Replace the placeholder API key on line 50:
+   - Replace the placeholder API key:
      ```python
      OPENAI_API_KEY = "your-api-key-here"
      ```
@@ -191,6 +191,7 @@ HELOSFORGE uses **TACTUS** for robust hand gesture recognition. TACTUS provides:
 - Adequate lighting
 - Hand positioned within camera frame
 - Distance: 30-60cm from camera for optimal tracking
+- Try not to have more than just your hands within the frame it may cause the system to fail
 
 ---
 
