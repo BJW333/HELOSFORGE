@@ -61,11 +61,11 @@ pip install opencv-python numpy trimesh pygame PyOpenGL openai mediapipe
 
 1. **Clone the HELOSFORGE repository**
    ```bash
-   git clone https://github.com/BJW333/HELOSFORGE.git
+   git clone --recurse-submodules https://github.com/BJW333/HELOSFORGE.git
    cd HELOSFORGE
    ```
 
-2. **Clone the TACTUS gesture recognition system**
+2. **(DO THIS ONLY IF TACTUS DOESNT POPULATE) Clone the TACTUS gesture recognition system**
    ```bash
    git clone https://github.com/BJW333/TACTUS.git
    ```
